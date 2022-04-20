@@ -51,6 +51,7 @@ class LoginViewController: UIViewController {
         
         UserDefaults.standard.set(true, forKey: "loggedIn")
         
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             self.statusLabel.text = "Logged In"
             self.loadingActivity.stopAnimating()

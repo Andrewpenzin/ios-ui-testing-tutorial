@@ -15,7 +15,6 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Mockify Music"
-        
         downloadsCell.isHidden = true
     }
     
