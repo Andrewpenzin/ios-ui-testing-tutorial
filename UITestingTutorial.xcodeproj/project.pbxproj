@@ -14,7 +14,6 @@
 		98ADD492214CB41700FCA1B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ADD491214CB41700FCA1B4 /* LoginViewController.swift */; };
 		98ADD494214CB88700FCA1B4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ADD493214CB88700FCA1B4 /* TableViewController.swift */; };
 		AD63FC8C2806C0FF001E00FB /* UITestingTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD63FC8B2806C0FF001E00FB /* UITestingTutorialUITests.swift */; };
-		AD63FC8E2806C0FF001E00FB /* UITestingTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD63FC8D2806C0FF001E00FB /* UITestingTutorialUITestsLaunchTests.swift */; };
 		AD63FC992806C22E001E00FB /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD63FC982806C22E001E00FB /* BasePage.swift */; };
 		AD63FC9B2806C23E001E00FB /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD63FC9A2806C23E001E00FB /* BaseTest.swift */; };
 		AD63FC9D2806C25E001E00FB /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD63FC9C2806C25E001E00FB /* LoginPage.swift */; };
@@ -45,7 +44,6 @@
 		98ADD493214CB88700FCA1B4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		AD63FC892806C0FF001E00FB /* UITestingTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestingTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD63FC8B2806C0FF001E00FB /* UITestingTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingTutorialUITests.swift; sourceTree = "<group>"; };
-		AD63FC8D2806C0FF001E00FB /* UITestingTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD63FC982806C22E001E00FB /* BasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
 		AD63FC9A2806C23E001E00FB /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
 		AD63FC9C2806C25E001E00FB /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				AD63FC962806C1D9001E00FB /* Screens */,
 				AD63FC952806C1CC001E00FB /* Core */,
 				AD63FC942806C1BB001E00FB /* Tests */,
-				AD63FC8D2806C0FF001E00FB /* UITestingTutorialUITestsLaunchTests.swift */,
 			);
 			path = UITestingTutorialUITests;
 			sourceTree = "<group>";
@@ -280,7 +277,6 @@
 				AD63FC8C2806C0FF001E00FB /* UITestingTutorialUITests.swift in Sources */,
 				AD63FC992806C22E001E00FB /* BasePage.swift in Sources */,
 				AD63FC9D2806C25E001E00FB /* LoginPage.swift in Sources */,
-				AD63FC8E2806C0FF001E00FB /* UITestingTutorialUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

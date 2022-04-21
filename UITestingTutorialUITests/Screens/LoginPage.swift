@@ -22,7 +22,7 @@ class LoginPage : BasePage {
     }
     
     func waitForPageNonExistence() {
-        XCTAssertTrue(navigationBar.waitForNonExistence())
+        XCTAssertTrue(navigationBar.waitForNonExistence(15))
     }
     
     func closePage() {
@@ -50,7 +50,7 @@ class LoginPage : BasePage {
         enterPassword(user.password)
         pressLogInButton()
     }
-    
+
     func assertPasswordCharsCount(_ password:String) {
         let passwordFieldValue = passwordField.value as? String
         

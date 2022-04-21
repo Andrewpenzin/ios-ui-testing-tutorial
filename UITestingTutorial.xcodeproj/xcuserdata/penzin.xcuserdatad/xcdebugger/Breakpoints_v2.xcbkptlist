@@ -216,7 +216,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D8E4FA10-445C-47A2-8E3D-13FD18E7FA89"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UITestingTutorialUITests/Screens/LoginPage.swift"
@@ -226,6 +226,38 @@
             endingLineNumber = "82"
             landmarkName = "assertLoginButtonIsHittable()"
             landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "D8E4FA10-445C-47A2-8E3D-13FD18E7FA89 - b46747b0bc539cf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITestingTutorialUITests.LoginPage.assertLoginButtonIsHittable() -&gt; ()"
+                  moduleName = "UITestingTutorialUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/penzin/Documents/GitHub/ios-ui-testing-tutorial/UITestingTutorialUITests/Screens/LoginPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "143">
+               </Location>
+               <Location
+                  uuid = "D8E4FA10-445C-47A2-8E3D-13FD18E7FA89 - b46747b0bc539cd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITestingTutorialUITests.LoginPage.assertLoginButtonIsHittable() -&gt; ()"
+                  moduleName = "UITestingTutorialUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/penzin/Documents/GitHub/ios-ui-testing-tutorial/UITestingTutorialUITests/Screens/LoginPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -296,7 +328,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1DE2A522-F49A-4ACB-BF29-75F47B21ECD3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UITestingTutorialUITests/Screens/LoginPage.swift"
