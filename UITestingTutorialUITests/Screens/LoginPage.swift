@@ -26,7 +26,7 @@ class LoginPage : BasePage {
     }
     
     func closePage() {
-        let start = navigationBar.coordinate(withNormalizedOffset: CGVector(dx: 0, dy: 0))
+        let start = navigationBar.coordinate(withNormalizedOffset: CGVector.zero)
         let finish = navigationBar.coordinate(withNormalizedOffset: CGVector(dx: 0, dy: 10))
         start.press(forDuration: 0, thenDragTo: finish)
     }
